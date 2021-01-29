@@ -12,6 +12,9 @@ header {
     align-items: flex-end;
     /* position: fixed; */
 }
+.mobileHeader {
+    display: flex;
+}
 .logoDiv {
     width: 75px;
     height: 75px;
@@ -215,4 +218,52 @@ footer {
 }
 footer div {
     margin: 20px;
+}
+/* RESPONSIVENESS */
+@media screen and (max-width: 425px) {
+    header {
+        display: grid;
+        border: none;
+        grid-template-columns: 90%;
+    }
+    .mobileHeader {
+        display: flex;
+        justify-content: center;
+    }
+    .logoDiv {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: auto;
+    }
+    .logoDiv img {
+        height: 50px;
+    }
+    .headline {
+        display: none;
+    }
+    .x {
+        display: block;
+        position: relative;
+        right: -125px;
+        color: red;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .menu {
+        display: grid;
+    }
+    .menu li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 5px;
+    }
+    .mobileLinksHeader {
+        display: block;
+    }
+    .menuItems {
+        background-color: #EBEBEB;
+        /* width: 90%; */
+    }
 }
