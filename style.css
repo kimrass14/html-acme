@@ -84,7 +84,7 @@ header {
 .insights {
     background: #EBEBEB;
 }
-.insights h2, .insightsText {
+.insights h2, .tagline {
     position: relative;
     left: 10%;
     font-weight: 300;
@@ -155,4 +155,64 @@ button {
 .contact button {
     margin-left: 40%;
     margin-top: 20px
+}
+
+/* EVENTS */
+.events {
+    background-color: #EBEBEB;
+}
+.events h2 {
+    position: relative;
+    left: 10%;
+}
+.eventTilesSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.eventTilesSection .tile {
+    height: 175px;
+    background-color: #3758D3;
+    /* margin-top: 20px; */
+    color: white;
+
+}
+.date {
+    width: 75px;
+    height: 60px;
+    background-color: #0E1254;
+    position: relative;
+    top: -40px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.date span {
+    font-size: 35px;
+    font-weight: 600;
+}
+.p1 {
+    font-weight: 600;
+    font-size: 25px;
+}
+.p2 {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.city {
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* FOOTER */
+footer {
+    height: 100px;
+    background-color: grey;
+    color: #EBEBEB;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer div {
+    margin: 20px;
 }
